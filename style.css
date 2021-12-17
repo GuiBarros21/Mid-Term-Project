@@ -497,21 +497,22 @@ li {
 
 .stable-btn {
     font-family: 'Work Sans', sans-serif;
-    min-width: 180px;
+    min-width: 200px;
     height: 54px;
-    border: 1px solid #b2b2b2;
+    border: 2px solid #b2b2b2;
     font-weight: 500;
     background-color: #fff;
     border-radius: 0;
     padding: 0 30px;
     line-height: 52px;
     color: #000;
+    padding: 0% 5%;
 }
 
 .stable-btn:hover,
 .stable-btn:focus {
     color: #ff0000;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .stable-btn > span {
@@ -1088,7 +1089,7 @@ li {
 
 .stable-reservation-area,
 .stable-contact-area {
-    overflow-x: hidden;
+    ;
 }
 
 .reservation-form-area,
@@ -1104,6 +1105,7 @@ li {
 .contact-form {
     width: 390px;
     margin-right: 67.5px;
+    border: #000;
 }
 
 .reservation-form .form-control,
